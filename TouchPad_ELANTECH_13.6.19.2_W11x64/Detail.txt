@@ -1,0 +1,13 @@
+[INFORMATION]
+Projects=Civic_TLS;Scala_TLS;Kamiq_TLS;QX60_TLS;
+OSs=Windows Next All X64;
+WHQL=Y,
+ProviderFullName=Elantech
+SelectedDriverType=Use Inf
+Installer=%RELATIVE_PATH%\Install.cmd
+Parameters=
+InfFiles=%RELATIVE_PATH%\ETDI2C.inf;
+DriverUtilityInstaller=
+DriverUtilityParameters=
+UWPSourceFolder=
+UWPInstaller=

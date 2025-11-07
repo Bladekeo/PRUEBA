@@ -1,0 +1,367 @@
+;============================================================================ 
+; Installation file (.inf) for Windows 8/8.1/10.
+;
+; All Rights Reserved, Copyright(C) ELAN Microelectronics Corp. 2003-2021
+;============================================================================
+
+[Version]
+Signature="$Windows NT$"
+Provider=%VenderName%
+Class=Mouse
+ClassGuid={4D36E96F-E325-11CE-BFC1-08002BE10318}
+CatalogFile=ETDI2C.cat
+DriverVer=01/19/2021, 13.6.19.2
+
+[SourceDisksNames]
+1=%DiskName%,,
+
+[SourceDisksFiles]
+ETDI2C.sys = 1
+
+;----------------------------------------------------------------------------
+; Manufacturer Sections
+;----------------------------------------------------------------------------
+
+[Manufacturer]
+%VenderName%   = ELAN.Mfg, NTamd64, NTamd64.6.2, NTamd64.6.3, NTamd64.10.0
+
+[ELAN.Mfg.NTamd64]
+
+[ELAN.Mfg.NTamd64.6.2]
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_1000
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_1000&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0000
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0500
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0500&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0501
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0501&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0502
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0502&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0503
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0503&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0504
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0504&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0505
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0505&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0506
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0506&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0507
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0507&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0508
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0508&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0509
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0509&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050A
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050A&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050B
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050B&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050C
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050C&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050D
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050D&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050E
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050E&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050F
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050F&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0511
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0511&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0514
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0514&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0515
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0515&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0516
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0516&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0517
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0517&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0520
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0520&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0521
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0521&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0522
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0522&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_9998
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_9998&Col01
+
+[ELAN.Mfg.NTamd64.6.3]
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_1000
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_1000&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0000
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0500
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0500&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0501
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0501&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0502
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0502&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0503
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0503&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0504
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0504&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0505
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0505&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0506
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0506&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0507
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0507&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0508
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0508&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0509
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0509&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050A
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050A&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050B
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050B&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050C
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050C&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050D
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050D&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050E
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050E&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050F
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050F&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0511
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0511&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0514
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0514&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0515
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0515&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0516
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0516&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0517
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0517&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0520
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0520&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0521
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0521&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0522
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0522&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_9998
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_9998&Col01
+
+[ELAN.Mfg.NTamd64.10.0]
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_1000
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_1000&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0000
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0500
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0500&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0501
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0501&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0502
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0502&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0503
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0503&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0504
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0504&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0505
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0505&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0506
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0506&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0507
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0507&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0508
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0508&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0509
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0509&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050A
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050A&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050B
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050B&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050C
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050C&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050D
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050D&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050E
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050E&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050F
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_050F&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0511
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0511&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0514
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0514&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0515
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0515&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0516
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0516&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0517
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0517&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0520
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0520&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0521
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0521&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0522
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_0522&Col01
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_9998
+%ELANI2CDeviceDesc%	= ETDI2C_STD_Inst, HID\VEN_ELAN&DEV_9998&Col01
+
+
+;----------------------------------------------------------------------------
+; Install Sections
+;----------------------------------------------------------------------------
+
+[DestinationDirs]
+DefaultDestDir 		= 12			; Driver directory
+ETDI2CSys.CopyFiles 	= 12			; Driver directory
+
+[ETDI2C_Service_Inst]
+DisplayName    = %ELANI2CDeviceDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Pointer Port
+ServiceBinary  = %12%\ETDI2C.sys
+
+;----------------------------------------------------------------------------
+; Common File Copy and Registry Operations
+;----------------------------------------------------------------------------
+
+[ETDI2CSys.CopyFiles]
+ETDI2C.sys
+
+;----------------------------------------------------------------------------
+; I2C Instance
+;----------------------------------------------------------------------------
+[ETDI2C_STD_Inst]
+Include=msmouse.inf
+Needs=HID_Mouse_Inst.NT
+
+CopyFiles=ETDI2CSys.CopyFiles
+
+AddReg=ETD_System.AddReg,\
+       ETD_DeviceInfo.AddReg
+
+[ETDI2C_STD_Inst.Services]
+Include=msmouse.inf
+Needs=HID_Mouse_Inst.NT.Services
+AddService = ETDI2C,0x00000000, ETDI2C_Service_Inst
+
+[ETDI2C_STD_Inst.HW]
+AddReg = ETDI2C.HW.AddReg
+Include=msmouse.inf
+Needs=HID_Mouse_Inst.NT.HW
+
+;----------------------------------------------------------------------------
+
+[ETDI2C.HW.AddReg]
+;HKR,,"UpperFilters",0x00010000,"ETDI2C"
+HKR,,"LowerFilters",0x00010000,"ETDI2C"
+
+;----------------------------------------------------------------------------
+; Entry point for Uninstallation.
+; This section is executed as part of Uninstallation.
+;----------------------------------------------------------------------------
+
+;[Uninstall]
+;CopyFiles = No_Files
+;DelFiles = No_Files
+;DelReg = Uninstall_DelReg
+
+;[No_Files]
+
+;----------------------------------------------------------------------------
+; Uninstall Section
+;----------------------------------------------------------------------------
+
+;[Uninstall_DelReg]
+;HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\Elantech"
+;HKCR,CLSID\{0066D4B3-8DE0-4D08-AA83-EDD50E2431F0}
+;HKLM,"Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved",{0066D4B3-8DE0-4D08-AA83-EDD50E2431F0}
+;HKLM,"Software\Microsoft\Windows\CurrentVersion\Controls Folder\Mouse\shellex\PropertySheetHandlers\ETD"
+;HKLM,"Software\Microsoft\Windows\CurrentVersion\Run",ETDCtrl
+;HKLM,"%HKLMRootPath%\Elantech"
+;HKCU,Software\Elantech
+;HKCR,CLSID\{3EA22083-D5BF-411b-A6D6-A27541794266}
+;HKLM,Software\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{3EA22083-D5BF-411b-A6D6-A27541794266}
+
+;----------------------------------------------------------------------------
+; System Section
+;----------------------------------------------------------------------------
+[ETD_System.AddReg]
+
+;HKCR,CLSID\{0066D4B3-8DE0-4D08-AA83-EDD50E2431F0}\InProcServer32,,%REG_EXPAND_SZ%,"%%ProgramFiles%%\%TargetDir%\ETDMcpl.dll"
+;HKCR,CLSID\{0066D4B3-8DE0-4D08-AA83-EDD50E2431F0}\InProcServer32,ThreadingModel,%REG_SZ%,"Apartment"
+;HKLM,"Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved",{0066D4B3-8DE0-4D08-AA83-EDD50E2431F0},%REG_SZ%,"ELAN Control Panel"
+
+;HKLM,"Software\Microsoft\Windows\CurrentVersion\Controls Folder\Mouse\shellex\PropertySheetHandlers\ETD",,%REG_SZ%,"{0066D4B3-8DE0-4D08-AA83-EDD50E2431F0}"
+;HKLM,Software\Microsoft\Windows\CurrentVersion\Run,ETDCtrl,%REG_EXPAND_SZ%,"%%ProgramFiles%%\%TargetDir%\ETDCtrl.exe"
+
+;HKLM,%HKLMRootPath%"\Elantech",InstallDir,%REG_SZ%,"%1%"
+HKLM,%HKLMRootPath%"\Elantech",DriverVersion,%REG_SZ%,"ELAN HIDI2C Driver %DriverBit% %DriverVersion%_%DriverVersionExtend%"
+HKLM,%HKLMRootPath%"\Elantech",ScreenOrientation,%REG_DWORD%,0
+
+; Windows\CurrentVersion\Uninstall
+;HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\Elantech,DisplayName,%REG_SZ%,"ELAN HIDI2C Filter Driver %DriverBit% %DriverVersion%_%DriverVersionExtend%"
+;HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\Elantech,UninstallString,%REG_EXPAND_SZ%,"%%ProgramFiles%%\%TargetDir%\ETDUn_inst.exe"
+;HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\Elantech,DisplayVersion,%REG_SZ%,"%DriverVersion%"
+;HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\Elantech,DisplayIcon,%REG_EXPAND_SZ%,"%%ProgramFiles%%\%TargetDir%\ETDCtrl.ico"
+;HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\Elantech,Publisher,%REG_SZ%,%Publisher%
+;HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\Elantech,URLInfoAbout,%REG_SZ%,"www.emc.com.tw"
+;HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\Elantech,NoModify,%REG_DWORD%,1
+;HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\Elantech,NoRepair,%REG_DWORD%,1
+
+
+;----------------------------------------------------------------------------
+; Device Information Section
+;----------------------------------------------------------------------------
+
+[ETD_DeviceInfo.AddReg]
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",DevicePort,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port0_MasterIsConnected,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port1_MasterIsConnected,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port2_MasterIsConnected,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port3_MasterIsConnected,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port0_SlaveIsConnected,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port1_SlaveIsConnected,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port2_SlaveIsConnected,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port3_SlaveIsConnected,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port0_MasterDeviceType,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port1_MasterDeviceType,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port2_MasterDeviceType,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port3_MasterDeviceType,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port0_SlaveDeviceType,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port1_SlaveDeviceType,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port2_SlaveDeviceType,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port3_SlaveDeviceType,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port0_MasterDeviceMode,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port1_MasterDeviceMode,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port2_MasterDeviceMode,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port3_MasterDeviceMode,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port0_SlaveDeviceMode,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port1_SlaveDeviceMode,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port2_SlaveDeviceMode,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port3_SlaveDeviceMode,%REG_DWORD%,0
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port0_MasterEnable,%REG_DWORD%,1
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port1_MasterEnable,%REG_DWORD%,1
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port2_MasterEnable,%REG_DWORD%,1
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port3_MasterEnable,%REG_DWORD%,1
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port0_SlaveEnable,%REG_DWORD%,1
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port1_SlaveEnable,%REG_DWORD%,1
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port2_SlaveEnable,%REG_DWORD%,1
+HKLM,%HKLMRootPath%"\Elantech\DeviceInformation",Port3_SlaveEnable,%REG_DWORD%,1
+
+
+
+;----------------------------------------------------------------------------
+; String Table
+;----------------------------------------------------------------------------
+
+[Strings]
+ELANI2CDeviceDesc	= "ELAN I2C Filter Driver"
+Publisher 		= "ELAN Microelectronic Corp."
+TargetDir			= "Elantech"
+DiskName  			= "ETDWare Driver Disk"
+VenderName			= "ELAN"
+HKLMRootPath			= "System\CurrentControlSet\Control"
+
+; Registry Type
+REG_EXPAND_SZ	= 0x00020000 
+REG_DWORD		= 0x00010001 
+REG_MULTI_SZ	= 0x00010000
+REG_BINARY		= 0x00000001
+REG_SZ			= 0x00000000
+
+; Driver Information Entries
+ELANStringName		= "ELAN Input Device Driver"
+
+DriverDate			= "01/19/2021"
+DriverVersion		= "13.6.19.2"
+DriverBit			= "X64"
+DriverVersionExtend	= "WHQL"        ; Beta or WHQL
